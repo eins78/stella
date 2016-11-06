@@ -1,0 +1,109 @@
+/*@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,500,900);*/
+/*@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700);*/
+
+/* TYPO */
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;  
+  font-size: 0.9em;
+}
+
+tt, code, kbd, samp {
+  font-family: 'Source Code Pro', monospace;
+/*  font-weight: 300;  */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+blockquote {
+/*  border-left-style: dotted;*/
+}
+
+body.pbdf64c article {
+  font-family: 'Vollkorn', sans-serif;
+}
+
+
+/* COLORS */
+
+body {
+  background: #eee;
+  background-image: url(http://subtlepatterns.com/patterns/geometry.png);
+  background-attachment: fixed;
+}
+
+header, nav, article, footer {
+  background-color: white;
+/*  background-color: hsl(0, 0%, 96%);*/
+}
+
+header {
+/*  background: inherit;*/
+}
+
+a, a:link {
+  color: hsla(80, 75%, 23%, 1);
+}
+
+a:visited {
+/*  color: black;*/
+}
+
+a:hover {
+  color: hsla(80, 75%, 23%, 1);
+  border-bottom-color: hsla(80, 75%, 23%, 1);
+}
+
+/* TEXT */
+
+.metadata .media:before {
+/*  content: "Medium: ";*/
+}
+.metadata .size:before {
+/*  content: "Maße: ";*/
+}
+.metadata .material:before {
+/*  content: "Material: ";*/
+}
+
+/* HIDE/SHOW ELEMENTS */
+.category-nav-top {
+/*  display: block;*/
+}
+
+.category-nav-bottom {
+/*  display: none;*/
+}
+
+
+/* ---------------------
+   DARK VARIATION COLORS
+   ---------------------
+*/
+body.dark {
+  color: #eee;
+  background: black;
+}
+
+body.dark header,
+body.dark nav,
+body.dark article,
+body.dark footer {
+  background-color: #222;
+}
+
+body.dark a, 
+body.dark a:link, 
+body.dark a:hover {
+  color: hsla(80, 100%, 43%, 1);
+}
+body.dark a:hover {
+  border-bottom-color: hsla(189, 100%, 43%, 1);
+}
+body.dark .muted,
+body.dark footer, body.dark small, body.dark aside,
+body.dark .colophon {
+  color: #bbb;
+}

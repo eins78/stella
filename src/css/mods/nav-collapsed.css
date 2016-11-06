@@ -1,0 +1,37 @@
+/* COLLAPSED NAVIGATION LISTS 
+
+  TODO: maybe import .nav from bootstrap… (less?)
+
+*/
+
+nav#primary {
+  width: 100%;
+/* make sure navs are high enough */
+  display: inline-block;
+}
+
+/* reset base nav spacing */
+nav#primary ul ul, nav#primary ul ol, 
+nav#primary ol ul, nav#primary ol ol {
+  padding-left: 0em;
+}
+nav#primary ul li a,
+nav#primary ol li a {
+  margin-right: 0.5em;
+}
+
+
+nav#primary li, nav#primary a, 
+nav#primary ul, nav#primary ol {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+nav#primary ul, nav#primary ol {
+  font-weight: 500;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+

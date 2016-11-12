@@ -1,3 +1,114 @@
+# `stella`
+
+prototype static generator inspired by [`stacey`](http://staceyapp.com),
+using React for the UI.
+
+# content folder structure
+
+pages are created by creating files in a folder structure.
+
+
+original stacey:
+
+```
+my-site/
+├── content
+│   ├── 1.my-projects
+│   │   ├── 1.my-project
+│   │   │   ├── project.yml
+│   │   │   └── some-image.gif
+│   │   ├── 2.another-project
+│   │   │   ├── some-image.jpg
+│   │   │   └── project.yml
+│   │   └── category.yml
+│   ├── 2.info
+│   │   ├── 1.contact
+│   │   │   └── page.yml
+│   │   └── category.yml
+│   └── _shared.yml
+└── public
+    └── favicon.ico
+```
+
+new proposal:
+
+- media is moved out of the `content` folder.
+  they are handled differently by the user,
+  the cms and the server, so it's more simple to keep them separate.
+
+    - users might want to collaborate on the YAML content and having
+      many very large files might get in the way
+    - they don't need the "orderer number" naming, because they are listed
+      in order in content pages anyhow
+    - media might be referenced from several diferent pages!
+    - they can be served "as is", but can also be on another domain/cdn/etc:
+      users can use *any* image url in any case
+
+having only yaml files in the `content` folder allows for a simpler structure,
+that also maps more closely to how plain HTML files would work:
+
+```sh
+my-site/
+├── content
+│   ├── 1.my-projects
+│   │   ├── 1.my-project.yml
+│   │   ├── 2.another-project.yml
+│   │   └── index.yml
+│   ├── 2.info
+│   │   ├── 1.contact.yml
+│   │   └── index.yml
+│   ├── _shared.yml
+│   └── index.yml
+└── public
+    ├── favicon.ico
+    └── images
+        ├── my-project.gif
+        └── another-project
+            ├── doku-image.jpg
+            └── teaser-image.jpg
+```
+
+more thoughts and ideas:
+
+- not sure if `_shared.yml` is needed, all "global" data could be set in top-level  
+  index.yml
+
+- the "type" of a page would not be determined by the name of the YAML file
+  (`project.yml`), but simply be set in the data `type: page`.
+  Internally the only(?) difference is the template used, so it might
+  be better to call it that/explicitly give a template name (can be custom)
+
+- would be easy to also support `1.my-project.md`: YAML data like title at the start,
+  but the main content as "normal" markdown doc, e.g. not nested inside YAML.
+
+- YAML also allows several documents per file. for many small subsites it could be
+  simpler to keep the together. in the example from above, works folder could
+  also be a single file, `my-site/content/1.my-projects.yml`:
+
+  ```yaml
+  # first document/the one without a path is the index.
+  # all subsequent docs MUST have a path set (used instead of their filename)
+  ---
+  title: My Works
+  type: 'category'
+  child_types: 'project' # maybe shortcut to set types of subpages?
+  ---
+
+  path: my-project
+  title: My project
+  content: some content
+  ---
+
+  path: another-project
+  title: Another project
+  content: more content
+  ---
+  ```
+
+
+
+# Development
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

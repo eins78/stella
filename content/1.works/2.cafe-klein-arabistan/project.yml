@@ -2,7 +2,7 @@ title: Café „Klein Arabistan“
 
 date: 2010-07-15
 
-media: 
+media:
   - Rauminstallation
   - Performance
 
@@ -17,10 +17,10 @@ material:
 01.jpg:
   description: CAPTION
 
-content: +++
-Ausstellung: Schlachthof Weimar, Rundgang der Bauhaus-Uni Weimar, July 2010 
-+++
+content: >
+  Ausstellung: Schlachthof Weimar, Rundgang der Bauhaus-Uni Weimar, July 2010 
 
-colophon: +++
-Enstanden im Projekt "Some Like It Hot" bei Naomi T. Salmon & Norbert W. Hinterberger, Bauhaus-Universität Weimar; mit tatkräftiger Hilfe von Martin Schade und Franziska Becher.
-+++
+colophon: >
+  Enstanden im Projekt "Some Like It Hot" bei
+  Naomi T. Salmon & Norbert W. Hinterberger, Bauhaus-Universität Weimar;
+  mit tatkräftiger Hilfe von Martin Schade und Franziska Becher.

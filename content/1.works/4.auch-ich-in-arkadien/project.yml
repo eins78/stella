@@ -6,14 +6,15 @@ media: netart
 
 material: WordPress, „Italienische Reise — Band 1“ von Johann Wolfgang von Goethe
 
-content: +++
-Echzeit-Blog-Version des Briefromans „Italienische Reise — Band 1“ von Johann Wolfgang von Goethe. 
+media:
+  - source: auch_ich_in_arkadien_italienischereise.ars_.is_mfa.png
+    caption: Screenshot der Webseite
 
-Die 232 Briefe wurden jeweils 225 Jahre nach ihrer usprünglichen Erstellung veröffentlicht, die Reise dauerte vom 3.9.2011 bis zum 6.6.2012.
+content: >
+  Echzeit-Blog-Version des Briefromans „Italienische Reise — Band 1“
+  von Johann Wolfgang von Goethe.
 
-Webseite: <http://italienischereise.ars.is>
-+++
+  Die 232 Briefe wurden jeweils 225 Jahre nach ihrer usprünglichen Erstellung
+  veröffentlicht, die Reise dauerte vom 3.9.2011 bis zum 6.6.2012.
 
-auch_ich_in_arkadien_italienischereise.ars_.is_mfa.png:
-  description: Screenshot der Webseite
-
+  Webseite: <http://italienischereise.ars.is>

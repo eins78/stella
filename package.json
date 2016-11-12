@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.7.0"
+    "babel-cli": "^6.18.0",
+    "babel-preset-react-app": "^1.0.0",
+    "react-scripts": "0.7.0",
+    "standard": "^8.5.0"
   },
   "dependencies": {
     "js-yaml": "^3.6.1",
@@ -17,8 +20,17 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run -s build:content && npm run -s build:app",
+    "build:app": "react-scripts build",
+    "build:content": "npm run -s babel -- src/parseStaceyPages.js > src/pages.json",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "lint": "standard --fix src/{,/**}/*.js",
+    "eject": "react-scripts eject",
+    "babel": "NODE_ENV=production babel-node"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
   }
 }

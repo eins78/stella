@@ -1,0 +1,38 @@
+title: Bitcoin Vending Machine
+
+lang: en
+
+date: 2012-07-15
+
+1.btc-vending-machine.jpg:
+  description: First Installation of the Machine, M18, Bauhaus-Uni Weimar, 2012-07-15
+
+content: +++
+
+A mechanical vending machine exchanging 1€-coins for Bitcoin. It works using the easywallet.org service which provides a Bitcoin wallet with a web interface not unlike an online banking account, but much simpler. 
+The only way to access the account is through a secret link, which is received in exchange for the 1€-coin. Opening this link in a web browser, the costumer can instantly send this 1€ (minus material costs) to another Bitcoin user, for example [Wikileaks](http://shop.wikileaks.org/donate#dbitcoin). (There is also an [announcement on bitcointalk](https://bitcointalk.org/index.php?topic=93456.0))
+
+### Media coverage:
+  
+- EasyWallet.org feature inspired by the vending machine: [Coupons](https://easywallet.org/coupons)!
+- [Bitcoin Vending Machine - Nerdcore](http://www.crackajack.de/2012/07/16/bitcoin-vending-machine/)
+- [German art student builds Euro-to-Bitcoin vending machine - The Verge](http://www.theverge.com/2012/7/16/3162441/euro-bitcoin-vending-machine)
+- [Ars Technica: Bitcoin price soars above $9 for the first time in almost a year](http://arstechnica.com/tech-policy/2012/07/bitcoin-price-soars-above-9-for-the-first-time-in-almost-a-year/)
+
+   ---
+
+### <small>Donations</small>
+
+<small>The Bitcoin Machine Project can be supported with donations of bitcoins.
+All received coins will used to build more advanced versions of this with open source software (and some open hardware).
+
+Donation adress: `1EuroXwViyd9vSpu2yX9eDa3q6zQ7sB5NL` ([Blockchain](https://blockchain.info/address/1EuroXwViyd9vSpu2yX9eDa3q6zQ7sB5NL))</small>
+
+  ---
+
++++
+
+colophon: +++
+Produced in the Fine Art project "Panta Rhei" at the Bauhaus-University in Weimar, 
+mentored by Prof. Norbert W. Hinterberger and Naomi T. Salmon.
++++

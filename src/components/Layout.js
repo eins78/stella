@@ -4,7 +4,7 @@ import Header from './Header'
 import Nav from './Nav'
 import Footer from './Footer'
 
-const Layout = ({children, ...restProps}) => (
+const Layout = ({sitemap, children, ...restProps}) => (
   <div {...restProps}>
 
     {/* <Head>
@@ -18,8 +18,8 @@ const Layout = ({children, ...restProps}) => (
       <Header />
       <hr />
 
-      <a className='sr-only' href='#content'>Skip to Content</a>
-      <Nav />
+      <a href='#content' style={{display: 'none'}}>Skip to Content</a>
+      <Nav sitemap={sitemap} />
       {children}
       <hr />
 

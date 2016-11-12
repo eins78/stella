@@ -1,0 +1,13 @@
+exports[`test renders 1`] = `
+<div
+  id="media">
+  <figure>
+    <img
+      alt="alt txt"
+      src="/media/img.jpg" />
+    <figcaption>
+      caption txt
+    </figcaption>
+  </figure>
+</div>
+`;

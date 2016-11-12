@@ -1,0 +1,21 @@
+exports[`test renders 1`] = `
+<nav
+  id="primary">
+  <ol>
+    <li>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        one
+      </a>
+    </li>
+    <li>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        two
+      </a>
+    </li>
+  </ol>
+</nav>
+`;

@@ -1,0 +1,20 @@
+exports[`test renders 1`] = `
+<article
+  id="content">
+  <section
+    id="main">
+    <h1 />
+    <dl
+      className="metadata">
+      <dt
+        data-item="material">
+        Material
+      </dt>
+      <dd
+        data-item="material" />
+    </dl>
+    <small
+      className="colophon" />
+  </section>
+</article>
+`;

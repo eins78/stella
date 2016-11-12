@@ -1,0 +1,134 @@
+{
+  "pages": [
+    {
+      "pathName": "works/insert-coin",
+      "slug": "insert-coin",
+      "order": "1",
+      "srcFile": "content/1.works/1.insert-coin/project.yml",
+      "data": {
+        "title": "insert coin",
+        "date": "2009-11-01T00:00:00.000Z",
+        "material": "Fotomontage",
+        "media": [
+          {
+            "source": "btc/btc-vending-machine.jpg",
+            "caption": "exhibiton view at M18, Weimar"
+          }
+        ],
+        "content": "insert coin/drehkreuz\nconcept for intervention in public space\n",
+        "colophon": "project: WECHSELSTROM (1) professor: Liz Bachhuber\n"
+      }
+    },
+    {
+      "pathName": "works/cafe-klein-arabistan",
+      "slug": "cafe-klein-arabistan",
+      "order": "2",
+      "srcFile": "content/1.works/2.cafe-klein-arabistan/project.yml",
+      "data": {
+        "title": "Café „Klein Arabistan“",
+        "date": "2010-07-15T00:00:00.000Z",
+        "media": [
+          "Rauminstallation",
+          "Performance"
+        ],
+        "material": [
+          "Bar",
+          "Sitzmöbel",
+          "Getränke",
+          "Grillgut",
+          "Wasserpfeifen",
+          "ägyptische Zigaretten"
+        ],
+        "01.jpg": {
+          "description": "CAPTION"
+        },
+        "content": "Ausstellung: Schlachthof Weimar, Rundgang der Bauhaus-Uni Weimar, July 2010 \n",
+        "colophon": "Enstanden im Projekt \"Some Like It Hot\" bei Naomi T. Salmon & Norbert W. Hinterberger, Bauhaus-Universität Weimar; mit tatkräftiger Hilfe von Martin Schade und Franziska Becher.\n"
+      }
+    },
+    {
+      "pathName": "works/schwarzer-koffer",
+      "slug": "schwarzer-koffer",
+      "order": "3",
+      "srcFile": "content/1.works/3.schwarzer-koffer/project.yml",
+      "data": {
+        "title": "Schwarzer Koffer",
+        "date": "2011-03-19T00:00:00.000Z",
+        "media": "Replikat",
+        "size": "40 × 30 × 7 cm",
+        "material": [
+          "Koffer",
+          "Umschlag mit 100.00 DM (Deutsche Mark)",
+          "Quittungsblock (unbenutzt)",
+          "Kugelschreiber"
+        ],
+        "01.jpg": {
+          "description": "CAPTION"
+        },
+        "content": "> „Nicht der Staat bedroht Freiheit und Sicherheit, sondern die Rechtsbrecher. Wer was anderes sagt, ist verrückt.“ — *Dr. Wolfgang Schäuble, 2008*\n> „1999 hatte Dr. Schäuble im Bundestag erklärt, Karlheinz Schreiber im Rahmen eines Gesprächsabends 1994 in Bonn kennen gelernt zu haben. Dort habe er sich ihm als Unternehmer vorgestellt. Den Erhalt einer Barspende Schreibers hatte Dr. Schäuble allerdings unerwähnt gelassen: „Auf der damaligen Veranstaltung bin ich Herrn Schreiber begegnet. Das war es.“ Auf die Nachfrage, ob dies mit oder ohne Koffer geschehen sei – wobei der Begriff „Koffer“ als Synonym für die Übergabe von Bargeld zu verstehen ist – hatte Dr. Schäuble geantwortet: „Ohne Koffer, das heißt: Ich habe vielleicht einen Aktenkoffer dabei gehabt. Ich weiß es nicht mehr genau.“ Im Dezember 1999 wurde Dr. Schäuble zu einer etwaigen Barspende Schreibers befragt. Dort erklärte er erstmals, im September 1994 von Schreiber eine Spende in Höhe von 100.000 DM erhalten zu haben.“ — *14. Dt. Bundestag, Drucks. 14/9300: Bericht d. Untersuchungsausschusses „Parteispenden und Waffenhandel“, S.165 (gekürzt)*\nAusstellung: <http://geldoderleben.tk>\n",
+        "colophon": "Enstanden im Projekt \"Geld oder Leben\" im Wintersemester 2010/2011 bei Naomi-Tereza Salmon & Norbert W. Hinterberger, Bauhaus-Universität Weimar.\n"
+      }
+    },
+    {
+      "pathName": "works/auch-ich-in-arkadien",
+      "slug": "auch-ich-in-arkadien",
+      "order": "4",
+      "srcFile": "content/1.works/4.auch-ich-in-arkadien/project.yml",
+      "data": {
+        "error": {
+          "name": "YAMLException",
+          "reason": "duplicated mapping key",
+          "mark": {
+            "name": "content/1.works/4.auch-ich-in-arkadien/project.yml",
+            "buffer": "title: „Auch ich in Arkadien!“\n\ndate: 2012-03-10\n\nmedia: netart\n\nmaterial: WordPress, „Italienische Reise — Band 1“ von Johann Wolfgang von Goethe\n\nmedia:\n  - source: auch_ich_in_arkadien_italienischereise.ars_.is_mfa.png\n    caption: Screenshot der Webseite\n\ncontent: >\n  Echzeit-Blog-Version des Briefromans „Italienische Reise — Band 1“\n  von Johann Wolfgang von Goethe.\n\n  Die 232 Briefe wurden jeweils 225 Jahre nach ihrer usprünglichen Erstellung\n  veröffentlicht, die Reise dauerte vom 3.9.2011 bis zum 6.6.2012.\n\n  Webseite: <http://italienischereise.ars.is>\n\u0000",
+            "position": 260,
+            "line": 12,
+            "column": 0
+          },
+          "message": "duplicated mapping key in \"content/1.works/4.auch-ich-in-arkadien/project.yml\" at line 13, column 1:\n    content: >\n    ^"
+        }
+      }
+    },
+    {
+      "pathName": "works/lampe-panta-rhei",
+      "slug": "lampe-panta-rhei",
+      "order": "5",
+      "srcFile": "content/1.works/5.lampe-panta-rhei/project.yml",
+      "data": {
+        "title": "Lampe „Panta Rhei“",
+        "date": "2012-07-15",
+        "media": "computergestützte Skulptur",
+        "material": "LED-Lampe, Schriftschablone (Holz), TP-Link TL-WR703N Wifi-Router, Relais, Schaltkasten",
+        "content": "Lampe, die nur bei stabiler Internetverbindung leuchtet.\n*Lamp which only glows with an stable internet connection.*\nPrototyp: Insel Hydra, Griechenland, Mai 2012 Ausstellung: Rundgang der Bauhaus-Uni Weimar, Juli 2012\n",
+        "colophon": "Enstanden im Projekt \"Panta Rhei\" bei Naomi T. Salmon & Norbert W. Hinterberger, Bauhaus-Universität Weimar.\n"
+      }
+    },
+    {
+      "pathName": "works/bitcoin-vending-machine",
+      "slug": "bitcoin-vending-machine",
+      "order": "6",
+      "srcFile": "content/1.works/6.bitcoin-vending-machine/project.yml",
+      "data": {
+        "title": "Bitcoin Vending Machine",
+        "lang": "en",
+        "date": "2012-07-15T00:00:00.000Z",
+        "1.btc-vending-machine.jpg": {
+          "description": "First Installation of the Machine, M18, Bauhaus-Uni Weimar, 2012-07-15"
+        },
+        "content": "A mechanical vending machine exchanging 1€-coins for Bitcoin. It works using the easywallet.org service which provides a Bitcoin wallet with a web interface not unlike an online banking account, but much simpler. The only way to access the account is through a secret link, which is received in exchange for the 1€-coin. Opening this link in a web browser, the costumer can instantly send this 1€ (minus material costs) to another Bitcoin user, for example [Wikileaks](http://shop.wikileaks.org/donate#dbitcoin). (There is also an [announcement on bitcointalk](https://bitcointalk.org/index.php?topic=93456.0))\n### Media coverage:\n- EasyWallet.org feature inspired by the vending machine: [Coupons](https://easywallet.org/coupons)! - [Bitcoin Vending Machine - Nerdcore](http://www.crackajack.de/2012/07/16/bitcoin-vending-machine/) - [German art student builds Euro-to-Bitcoin vending machine - The Verge](http://www.theverge.com/2012/7/16/3162441/euro-bitcoin-vending-machine) - [Ars Technica: Bitcoin price soars above $9 for the first time in almost a year](http://arstechnica.com/tech-policy/2012/07/bitcoin-price-soars-above-9-for-the-first-time-in-almost-a-year/)\n---\n### <small>Donations</small>\n<small>The Bitcoin Machine Project can be supported with donations of bitcoins. All received coins will used to build more advanced versions of this with open source software (and some open hardware).\nDonation adress: `1EuroXwViyd9vSpu2yX9eDa3q6zQ7sB5NL` ([Blockchain](https://blockchain.info/address/1EuroXwViyd9vSpu2yX9eDa3q6zQ7sB5NL))</small>\n---\n",
+        "colophon": "Produced in the Fine Art project \"Panta Rhei\" at the Bauhaus-University in Weimar, mentored by Prof. Norbert W. Hinterberger and Naomi T. Salmon.\n"
+      }
+    },
+    {
+      "pathName": "info/contact",
+      "slug": "contact",
+      "order": "1",
+      "srcFile": "content/2.info/1.contact/page.yml",
+      "data": {
+        "title": "contact",
+        "thumbcolor": null,
+        "content": "Email: <1@178.is> IRC: `eins78` in channel `#KTE` on freenode\n"
+      }
+    }
+  ]
+}

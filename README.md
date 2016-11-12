@@ -3,10 +3,13 @@
 prototype static generator inspired by [`stacey`](http://staceyapp.com),
 using React for the UI.
 
+the goal is to convert a stacey-like `content` folder
+into static HTML files that progressively enhance into a
+single page app.
+
 # content folder structure
 
 pages are created by creating files in a folder structure.
-
 
 original stacey:
 
